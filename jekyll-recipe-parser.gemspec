@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Wayne Graham"]
   spec.email         = ["wgraham@clir.org"]
 
-  spec.summary       = %q{TODO: A Jekyll plugin to automate encoding recipes in the h-recipe format.}
-  spec.description   = %q{TODO: A Jekyll plugin for food bloggers to helpto automate encoding recipes in the h-recipe format.}
+  spec.summary       = %q{A Jekyll plugin to automate encoding recipes in the h-recipe format.}
+  spec.description   = %q{A Jekyll plugin for food bloggers to helpto automate encoding recipes in the h-recipe format.}
   spec.homepage      = "http://github.com/waynegraham/jekyll-recipe-parser"
   spec.license       = "MIT"
 
