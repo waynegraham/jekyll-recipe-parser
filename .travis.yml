@@ -12,6 +12,6 @@ env:
 before_install:
   - gem update --system
 before_script: bundle update
-script: script/build
+script: script/cibuild
 notifications:
   email: false
