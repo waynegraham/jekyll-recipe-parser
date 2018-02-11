@@ -13,5 +13,10 @@ before_install:
   - gem update --system
 before_script: bundle update
 script: script/cibuild
+exclude: [vendor]
 notifications:
-  email: false
+  email:
+    - recipients:
+      - wgraham@clir.org
+    on_success: never # default: change
+    on_failure: always # default: always
